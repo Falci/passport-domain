@@ -8,7 +8,7 @@
 
 The domain authentication strategy authenticates users using a third-party
 authenticator and domain. The strategy
-requires a `verify` callback, which receives an access token and profile,
+requires a `verify` callback, which receives an access token,
 and calls `cb` providing a user.
 
 ```js
